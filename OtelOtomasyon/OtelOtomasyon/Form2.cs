@@ -37,6 +37,7 @@ namespace OtelOtomasyon
         private void Form2_Load(object sender, EventArgs e)
         {
             textBox1.Select();
+            textBox2.PasswordChar = '*';
         }
 
         private void Form2_FormClosed(object sender, FormClosedEventArgs e)
