@@ -20,7 +20,7 @@ namespace OtelOtomasyon
         } 
 
         //Veritabanıyla bağlantı kuruluyor.
-        SqlConnection baglanti = new SqlConnection("Data Source=.\\;AttachDbFilename=" + Application.StartupPath + "\\otelmüşteri.mdf; Integrated Security = True;User Instance = True");
+        SqlConnection baglanti = new SqlConnection("Data Source=.\\SQLEXPRESS;AttachDbFilename=" + Application.StartupPath + "\\otelmüşteri.mdf; Integrated Security = True;User Instance = True");
         
         //veritabanındaki veriler alınarak Listview'a ekleniyor.
         private void vericek()
